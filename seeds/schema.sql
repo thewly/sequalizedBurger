@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS sequelizeDB;
+
+CREATE DATABASE sequelizeDB;

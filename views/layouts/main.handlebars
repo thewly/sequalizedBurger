@@ -43,8 +43,7 @@
 			event.preventDefault();
 
 			var newBurger = {
-				name: $("#ca").val().trim(),
-				eaten: $("[name=eaten]:checked").val().trim()
+				name: $("#ca").val().trim()
 			};
 
 			// Send the POST request.
@@ -59,8 +58,6 @@
 				}
 			);
 		});
-
-		
 	});
 </script>
 
